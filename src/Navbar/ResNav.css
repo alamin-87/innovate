@@ -1,0 +1,19 @@
+.resnav{
+    @apply lg:hidden relative
+}
+.res_nav{
+    @apply absolute w-[200px] right-0 bg-white rounded-lg flex flex-col items-center py-[8px] md:py-[12px] gap-[20px]
+}
+.res_icon{
+    @apply w-[25px] h-[25px] text-white
+}
+.resnav_pages ul{
+    @apply flex flex-col gap-[12px]
+}
+.resnav_pages ul li a{
+    @apply flex text-[14px] md:text-[18px] text-black font-sans font-[500] hover:text-[#FF9600] transition-[.4s]
+}
+.resnav_button button{
+    @apply bg-[#FF9600] py-[8px] px-[35px] rounded-[10px] text-[12px] md:text-[18px] text-white font-sans font-[500]
+    border-solid border-[2px] border-[#FF9600] hover:bg-transparent hover:text-[#FF9600] transition-[.4s] active:scale-[1.1]
+}

@@ -1,0 +1,46 @@
+.navbar{
+    @apply absolute pt-[20px] w-full
+}
+.nav_row{
+    @apply flex items-center justify-between
+}
+.nav_content{
+    @apply flex items-center 
+}
+.nav_main{
+    @apply hidden lg:block
+}
+.nav_logo img{
+    @apply w-[120px] h-[35px] md:w-[160px] md:h-[45px] lg:w-full lg:h-full
+}
+.nav_pages ul{
+    @apply flex items-center gap-[73px]
+}
+.nav_pages ul li{
+    @apply flex
+}
+.nav_pages ul li a{
+    @apply flex text-[18px] text-white font-sans font-[700] hover:text-[#FF9600] transition-[.4s]
+}
+.nav_button button{
+    @apply bg-[#FF9600] pt-[21px] pb-[16px] px-[49px] rounded-[10px] text-[18px] text-white font-sans font-[700] ml-[140px]
+    border-solid border-[2px] border-[#FF9600] hover:bg-transparent hover:text-[#FF9600] transition-[.4s] active:scale-[1.1]
+}
+.extraul{
+    @apply flex flex-col
+}
+
+/* ============================= nav icon================================ */
+.two_navicon{
+    @apply relative
+}
+.two_navicon_main{
+    @apply  absolute flex flex-col items-center gap-[40px] w-[200px] bg-black right-[-35px] top-[40px] rounded-lg py-[20px]
+}
+.two_navicon_text ul{
+    @apply flex flex-col gap-[12px]
+}
+.two_nav_button button{
+    @apply bg-[#FF9600] py-[8px] px-[35px] rounded-[10px] text-[12px] md:text-[18px] text-white font-sans font-[500]
+    border-solid border-[2px] border-[#FF9600] hover:bg-transparent hover:text-[#FF9600] transition-[.4s] active:scale-[1.1]
+}

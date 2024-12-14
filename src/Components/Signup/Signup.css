@@ -1,0 +1,64 @@
+
+  
+  .signin-page {
+    @apply flex justify-center items-center bg-[#0a0f27]
+  }
+  
+  .signin-container {
+    @apply flex flex-wrap w-full h-screen bg-white rounded-[10px] overflow-hidden
+  }
+  
+  .sign_left-section {
+    @apply w-full lg:w-[850px] flex flex-col bg-[#0a0f27] text-white justify-center items-center
+  }
+  
+  .sign_left-section h1 {
+    @apply pt-[20px] md:mt-[30px] lg:pt-0 text-[22px] md:text-[26px] font-[600] lg:text-[36px]
+  }
+  
+  .sign_left-section p {
+    @apply mt-[10px] pb-[20px] md:pb-[30px] lg:pb-0 lg:mt-[20px] text-[18px]
+  }
+  
+  .sign_right-section {
+    @apply flex flex-col p-[16px] md:p-[50px] lg:p-[100px] bg-white items-center justify-center m-auto
+  }
+  
+  .sign_form-container {
+    @apply w-full shadow-lg p-[20px] md:p-[24px] lg:p-10
+
+  }
+  
+  .sign_form {
+    @apply flex flex-col w-[280px] md:w-[330px] lg:w-[400px]
+  }
+  
+  .sign_form h2 {
+    @apply text-[24px] mb-[20px]
+  }
+  
+  .sign_form input {
+    @apply p-[10px] mb-[15px] border-solid border-[1px] border-[#ddd] rounded-[5px] text-[16px]
+  }
+  
+   button {
+    @apply p-[5px] lg:p-[10px] text-[10px] bg-[#007bff] text-white border-none rounded-[5px] cursor-pointer gap-[20px] mt-[12px]
+  }
+  
+  .google-btn {
+    @apply py-[10px] bg-green-700 mt-[10px] text-[12px] lg:text-[16px] font-[700] gap-[5px]
+  }
+  
+  .sign_form button:hover {
+    @apply opacity-[.9]
+  }
+  
+  a {
+    @apply text-[#007bff]
+  }
+   span{
+    @apply text-[#007bff] cursor-pointer
+  }
+  .sign_form .eye{
+    @apply absolute top-[438px] right-[60px] md:top-[422px] md:right-[226px] lg:top-[356px] lg:right-[162px] text-[22px]
+  }
