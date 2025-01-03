@@ -1,13 +1,3 @@
-.navicon{
-    @apply relative
-}
-.nav_icon_main{
-   @apply absolute flex flex-col w-[200px] bg-black right-[807px] top-[80px] rounded-lg items-center gap-[40px] py-[20px]
-}
-.nav_icon_pages ul{
-    @apply flex flex-col gap-[12px]
-}
-.nav_icon_button button{
-    @apply bg-[#FF9600] py-[8px] px-[35px] rounded-[10px] text-[12px] md:text-[18px] text-white font-sans font-[500]
-    border-solid border-[2px] border-[#FF9600] hover:bg-transparent hover:text-[#FF9600] transition-[.4s] active:scale-[1.1]
+.navicon ul{
+    @apply absolute flex flex-col top-[70px] md:top-[90px] bg-black gap-[8px] p-5 rounded-lg
 }

@@ -1,0 +1,32 @@
+.services_section{
+    @apply bg-[#FAFAFA]
+}
+.services_row{
+    @apply pt-[30px] md:pt-[50px] lg:pt-[120px]
+}
+.services_row1{
+    @apply flex flex-wrap justify-between items-center
+}
+.row1_col1 h5{
+    @apply text-[14px] md:text-[16px] lg:text-[20px] text-[#FD5F36] font-serif font-[600]
+}
+.row1_col1 h2{
+    @apply text-[20px] md:text-[30px] lg:text-[48px] text-[#30344E] font-serif font-[600]
+}
+.row1_col2 p{
+    @apply lg:w-[538px] text-[14px] md:text-[16px] lg:text-[20px] text-[#5B5F77] font-serif font-[400] mt-[10px] lg:mt-0
+}
+.services_row2{
+    @apply mt-[40px] lg:mt-[58px] flex flex-wrap gap-[27px]
+}
+.row2_card{
+    @apply  bg-white p-[24px] lg:p-[12px] flex flex-col items-center rounded-lg border-[10px] border-solid border-[#52C5B6] border-t-0 border-l-0
+    border-r-0
+
+}
+.row2_card h4{
+    @apply md:w-[230px] text-[14px] md:text-[16px] lg:text-[20px] text-[#30344E] font-serif font-[600] text-center pt-[10px] md:pt-[27px]
+}
+.row2_card p{
+    @apply md:w-[282px] text-[12px] md:text-[16px] text-[#5B5F77] font-serif font-[400] text-center mt-[10px] pb-[10px]
+}

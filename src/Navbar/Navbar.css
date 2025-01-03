@@ -1,46 +1,39 @@
 .navbar{
-    @apply absolute pt-[20px] w-full
+    @apply w-full absolute p-[20px] 
 }
 .nav_row{
-    @apply flex items-center justify-between
+    @apply flex justify-between items-center
+}
+.nav_element{
+    @apply hidden md:block
 }
 .nav_content{
-    @apply flex items-center 
+    @apply flex items-center md:gap-[20px] lg:gap-[170px]
 }
-.nav_main{
-    @apply hidden lg:block
+.nav_col2 ul li{
+    @apply flex justify-center items-center md:gap-[5px] lg:gap-[10px]
 }
-.nav_logo img{
-    @apply w-[120px] h-[35px] md:w-[160px] md:h-[45px] lg:w-full lg:h-full
+.nav_col2 ul{
+    @apply flex justify-between md:gap-[18px] lg:gap-[50px]
 }
-.nav_pages ul{
-    @apply flex items-center gap-[73px]
+.nav_col2 .second_li{
+    @apply absolute flex flex-col bg-black md:p-[10px] lg:p-[16px] gap-[10px] top-[100px]
 }
-.nav_pages ul li{
-    @apply flex
+.nav_col2 .icon{
+    @apply mt-[6px] text-white
 }
-.nav_pages ul li a{
-    @apply flex text-[18px] text-white font-sans font-[700] hover:text-[#FF9600] transition-[.4s]
+.nav_col2 ul li a{
+    @apply md:text-[14px] lg:text-[20px] text-white font-serif font-[300]
 }
-.nav_button button{
-    @apply bg-[#FF9600] pt-[21px] pb-[16px] px-[49px] rounded-[10px] text-[18px] text-white font-sans font-[700] ml-[140px]
-    border-solid border-[2px] border-[#FF9600] hover:bg-transparent hover:text-[#FF9600] transition-[.4s] active:scale-[1.1]
+.nav_col3{
+    @apply flex md:gap-[10px] lg:gap-[50px] items-center md:pl-[16px] lg:pl-0
 }
-.extraul{
-    @apply flex flex-col
+.nav_col3 a{
+    @apply md:text-[14px] lg:text-[20px] text-white font-serif font-[300]
 }
-
-/* ============================= nav icon================================ */
-.two_navicon{
-    @apply relative
+.nav_col3 button{
+    @apply md:text-[12px] lg:text-[16px] text-white font-serif font-[400]
 }
-.two_navicon_main{
-    @apply  absolute flex flex-col items-center gap-[40px] w-[200px] bg-black right-[-35px] top-[40px] rounded-lg py-[20px]
-}
-.two_navicon_text ul{
-    @apply flex flex-col gap-[12px]
-}
-.two_nav_button button{
-    @apply bg-[#FF9600] py-[8px] px-[35px] rounded-[10px] text-[12px] md:text-[18px] text-white font-sans font-[500]
-    border-solid border-[2px] border-[#FF9600] hover:bg-transparent hover:text-[#FF9600] transition-[.4s] active:scale-[1.1]
+.resnav{
+    @apply block md:hidden absolute right-0
 }

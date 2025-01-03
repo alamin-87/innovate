@@ -1,32 +1,47 @@
 import React, { useState } from 'react'
 import './ResNav.css'
-import { MdViewSidebar } from "react-icons/md";
-import { Link } from 'react-router-dom';
+import { FiSidebar } from "react-icons/fi";
+import Navicon from './Navicon';
+import { Link } from 'react-router';
+
 
 const ResNav = () => {
     const [show , setshow] = useState(false)
   return (
     <>
-    <section  className='resnav'>
-      <MdViewSidebar className=' res_icon' onClick={()=>setshow(!show)} />
+    <section className='resnav_part'>
+      <div className="container">
+      <FiSidebar className='text-white text-2xl right-0'  onClick={()=>setshow(!show)}/>
         {
           show&&
-              <div className="res_nav">
-              <div className="resnav_pages">
-                  <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">About Us</Link></li>
-                    <li><Link to="/">Latest News</Link></li>
-                    <li><Link to="/">Contact</Link></li>
-                    <li><Link to="/">Activities</Link></li>
-                  </ul>
-                </div>
-                <div className="resnav_button">
-                  <button>Get Started </button>
-                </div>
-              </div>
+          <div className="resnav">
+            <div className='resnav_content'>
+            <div className="resnav_col2">
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+                <Navicon/>
+              </li>
+              <li><Link to="/">About</Link></li>
+              <li>
+               <Link to="/">Services</Link>
+               <Navicon/>
+              </li>
+              <li>
+               <Link to="/">Pages</Link>
+               <Navicon/>
+              </li>
+              <li><Link to="/">About</Link></li>
+            </ul>
+           </div>
+           <div className="resnav_col3">
+            <Link to="/login">Login</Link>
+            <button>Free Consultation</button>
+           </div>
+            </div>
+         </div>
         }
-
+      </div>
     </section>
     </>
   )

@@ -1,0 +1,69 @@
+.contenr{
+    @apply lg:pb-[20px]
+}
+.contenr img{
+  @apply bg-cover bg-no-repeat bg-center
+}
+.content_row{
+    @apply flex flex-wrap pt-[107px] justify-between
+}
+.content_col1{
+    @apply mt-[20px] md:mt-[40px] lg:mt-[80px]
+}
+.con1_text h1{
+    @apply md:w-[567px] lg:w-[700px] text-[18px] md:text-[30px] lg:text-[60px] text-white font-serif font-[600] lg:leading-[74px]
+}
+.con1_text p{
+    @apply md:w-[567px] lg:w-[700px] text-[12px] md:text-[16px] lg:text-[18px] text-white font-serif font-[400] mt-[16px] md:mt-[24px]
+}
+.con1_text button{
+    @apply p-[10px] bg-[#FD5F36] text-[12px] md:text-[16px] lg:text-[18px] font-serif font-[400] rounded-lg mt-[20px] md:mt-[40px]
+}
+.con1_text a{
+    @apply text-blue-400
+}
+.col1_review{
+    @apply mt-[20px] md:mt-[30px] lg:mt-[70px] flex
+}
+.review_img{
+    @apply flex
+}
+.col1_review img{
+    @apply w-[30px] h-[30px] md:w-[40px] md:h-[40px] rounded-full overflow-hidden
+}
+.review_img .img1{
+    @apply absolute top-[355px] md:top-[481px] lg:top-[710px]
+}
+.review_img .img2{
+    @apply absolute top-[355px] md:top-[481px] lg:top-[710px] right-[288px] md:right-[666px] lg:right-[1356px]
+}
+.review_img .img3{
+    @apply absolute top-[355px] md:top-[481px] lg:top-[710px] right-[270px] md:right-[642px] lg:right-[1328px]
+}
+.review_img .img4{
+    @apply absolute top-[355px] md:top-[481px] lg:top-[710px] right-[250px] md:right-[620px] lg:right-[1304px]
+}
+.review{
+    @apply flex flex-col pl-[110px] md:pl-[150px]
+}
+.review_icon{
+    @apply flex items-center gap-[20px]
+}
+.review_icon_text{
+    @apply flex items-center gap-[10px]
+}
+.review_icon_text p{
+    @apply text-[16px] md:text-[18px] lg:text-[20px] text-white font-serif font-[400]
+}
+.review_icon_text span{
+    @apply block w-[1px] h-[16px] bg-white mt-[4px]
+}
+.review_icon_icon{
+    @apply flex gap-[3px] text-orange-500
+}
+.review_text p{
+    @apply text-[12px] md:text-[14px] lg:text-[18px] text-white font-serif font-[400] mt-[6px]
+}
+.content_col2 img{
+    @apply w-[600px] h-[300px] md:h-[600px] lg:h-[650px] flex m-auto
+}

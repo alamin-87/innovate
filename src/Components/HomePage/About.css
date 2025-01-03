@@ -1,0 +1,33 @@
+.about_section{
+    @apply mt-[50px] md:mt-[80px] lg:mt-[130px] pb-[30px] md:pb-[50px] lg:pb-[130px]
+}
+.about_row{
+    @apply flex flex-wrap-reverse justify-between
+}
+.about_col2{
+    @apply lg:mt-[74px]
+}
+.col2_text h5{
+   @apply text-[12px] md:text-[16px] lg:text-[20px] text-[#FD5F36] font-serif font-[600]
+}
+.col2_text h2{
+    @apply md:w-[417px] lg:w-[584px] text-[24px] md:text-[32px] lg:text-[48px] text-[#30344E] font-serif font-[600]
+}
+.col2_text p{
+    @apply md:w-[417px] lg:w-[584px] text-[12px] md:text-[14px] lg:text-[18px] text-[#5B5F77] font-serif font-[400] mt-[10px] md:mt-[20px]
+}
+.col2_list{
+    @apply flex flex-col gap-[10px] mt-[20px]
+}
+.col2_list .list1{
+    @apply flex gap-[20px] items-center
+}
+.list1 p{
+    @apply text-[12px] md:text-[14px] lg:text-[18px] text-[#5B5F77] font-serif font-[400]
+}
+.col2_button{
+    @apply mt-[20px] md:mt-[25px] lg:mt-[40px]
+}
+.col2_button button{
+    @apply text-[12px] md:text-[14px] lg:text-[18px] text-white font-serif font-[400] p-[10px] bg-[#FD5F36] mb-[20px] md:mb-[36px]
+}

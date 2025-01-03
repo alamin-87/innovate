@@ -1,10 +1,14 @@
 import React from 'react'
-import HomePage from '../Components/HomePage/HomePage'
+import Content from '../Components/HomePage/Content'
+import About from '../Components/HomePage/About'
+import Services from '../Components/HomePage/Services'
 
 const Home = () => {
   return (
     <>
-     <HomePage/>
+     <Content/>
+     <About/>
+     <Services/>
     </>
   )
 }
