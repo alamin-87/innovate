@@ -2,19 +2,19 @@
     @apply bg-cover bg-no-repeat bg-center mb-[1250px] md:mb-[720px] lg:mb-[260px]
 }
 .team_row{
-    @apply pt-[30px] md:pt-[50px] lg:pt-[80px] pb-[120px] md:pb-[180px] lg:pb-[221px] relative
+    @apply pt-[30px] md:pt-[50px] lg:pt-[80px] pb-[120px] md:pb-[220px] lg:pb-[321px] relative
 }
-.team_row1{
+.about_team_row1{
     @apply flex flex-col justify-center items-center
 }
-.team_row1 h5{
+.about_team_row1 h5{
     @apply text-[14px] md:text-[16px] lg:text-[20px] text-[#FD5F36] font-serif font-[600] uppercase
 }
-.team_row1 h3{
+.about_team_row1 h3{
     @apply text-[25px] md:text-[32px] lg:text-[48px] text-[#29313D] font-serif font-[600]
 }
 .team_row2{
-    @apply absolute flex flex-wrap gap-[30px] lg:gap-[42px] top-[120px] md:top-[180px] lg:top-[250px]
+    @apply absolute flex flex-wrap gap-[30px] lg:gap-[42px] top-[120px] md:top-[180px] lg:top-[250px] justify-center items-center
 }
 .row2_single_card{
     @apply w-[304px] h-[300px] md:w-[300px] md:h-[390px] bg-[#C4C4C4] rounded-sm relative flex

@@ -14,7 +14,7 @@ const Team = () => {
          <section className='team_section' style={{backgroundImage:`url(${team1})`}}>
                 <div className="container">
                    <div className="team_row">
-                    <div className="team_row1">
+                    <div className="about_team_row1">
                         <h5>our team</h5>
                         <h3>Meet with Expert</h3>
                     </div>
