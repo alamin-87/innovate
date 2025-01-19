@@ -1,0 +1,31 @@
+.company_section{
+    @apply bg-cover bg-center bg-no-repeat
+}
+.brand_row{
+    @apply py-[40px] md:py-[60px] lg:py-[110px] flex flex-wrap justify-between
+}
+.brand_col1 h3{
+    @apply lg:w-[511px] text-[24px] md:text-[28px] lg:text-[38px] text-white font-serif font-[600] mb-[20px]
+}
+.brand_col1 button{
+    @apply py-[8px] px-[16px] lg:py-[14px] lg:px-[28px] bg-[#FD5F36] text-[10px] md:text-[14px] lg:text-[18px] text-white font-serif font-[600]
+    rounded-sm active:scale-[1.1] transition-[.4s]
+}
+.brand_col2{
+    @apply mt-[20px] lg:mt-0
+}
+.col2_row1_success h5{
+    @apply text-[20px] md:text-[30px] lg:text-[60px] text-white font-serif font-[600]
+}
+.col2_row1_success p{
+    @apply text-[10px] md:text-[14px] lg:text-[20px] text-white font-serif font-[400]
+}
+.col2_row1{
+    @apply flex gap-[70px] md:gap-[90px] lg:gap-[120px] items-center
+}
+.col2_row2{
+    @apply flex gap-[35px] md:gap-[50px] lg:gap-[126px] mt-[10px] md:mt-[20px] lg:mt-[40px] items-center
+}
+.col2_row2 img{
+    @apply w-[50px] h-[16px] md:w-[80px] md:h-[25px]
+}

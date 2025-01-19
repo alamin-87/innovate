@@ -1,0 +1,15 @@
+.header_row{
+    @apply pt-[100px] pb-[60px] md:pt-[150px] md:pb-[80px] lg:pt-[252px] lg:pb-[120px] flex flex-wrap gap-[30px] lg:gap-[10px] justify-center items-center
+}
+.header_col1 h1{
+    @apply  lg:w-[600px] text-[20px] md:text-[32px] lg:text-[64px] text-[#29313D] font-serif font-[700] lg:leading-[83px]
+}
+.header_col2{
+    @apply flex items-center gap-[20px]
+}
+.header_col2 span{
+    @apply block w-[2px] h-[90px] md:h-[70px] lg:h-[100px] bg-[#29313D]
+}
+.header_col2 p{
+    @apply lg:w-[542px] text-[12px] md:text-[16px] lg:text-[18px] text-[#29313D] font-serif font-[400]
+}

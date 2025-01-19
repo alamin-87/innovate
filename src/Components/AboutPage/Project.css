@@ -1,0 +1,28 @@
+.project{
+    @apply bg-no-repeat bg-cover bg-center
+}
+.project_row{
+    @apply py-[40px] lg:py-[100px]
+}
+.project_row1{
+    @apply flex justify-between items-center
+}
+.project_row1_text span{
+    @apply text-[10px] md:text-[14px] lg:text-[20px] text-[#29313D] font-serif font-[400]
+}
+.project_row1_text h3{
+    @apply text-[20px] md:text-[28px] lg:text-[48px] text-[#29313D] font-serif font-[600]
+}
+.project_row1_link a{
+    @apply py-[6px] px-[12px] md:py-[10px] md:px-[14px] lg:py-[14px] lg:px-[28px] bg-[#FF5538] rounded-[6px] lg:rounded-[12px]
+    text-[10px] md:text-[12px] lg:text-[18px] text-[#FDF9F8] font-serif font-[400]
+}
+.project_row2{
+    @apply mt-[16px] md:mt-[22px] lg:mt-[48px]
+}
+.project_row2 span{
+    @apply block w-full h-[1px] bg-[#29313D]
+}
+.project_row2 p{
+    @apply text-[10px] md:text-[12px] lg:text-[20px] text-[#29313D]  font-serif font-[400] mt-[10px] lg:mt-[24px]
+}

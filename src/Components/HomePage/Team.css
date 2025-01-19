@@ -1,0 +1,46 @@
+.team_section{
+    @apply bg-cover bg-no-repeat bg-center mb-[1250px] md:mb-[720px] lg:mb-[260px]
+}
+.team_row{
+    @apply pt-[30px] md:pt-[50px] lg:pt-[80px] pb-[120px] md:pb-[180px] lg:pb-[221px] relative
+}
+.team_row1{
+    @apply flex flex-col justify-center items-center
+}
+.team_row1 h5{
+    @apply text-[14px] md:text-[16px] lg:text-[20px] text-[#FD5F36] font-serif font-[600] uppercase
+}
+.team_row1 h3{
+    @apply text-[25px] md:text-[32px] lg:text-[48px] text-white font-serif font-[600]
+}
+.team_row2{
+    @apply absolute flex flex-wrap gap-[30px] lg:gap-[42px] top-[120px] md:top-[180px] lg:top-[250px]
+}
+.row2_single_card{
+    @apply w-[304px] h-[300px] md:w-[300px] md:h-[390px] bg-[#C4C4C4] rounded-sm relative flex
+}
+.card_text{
+    @apply flex w-[200px] h-[50px] md:w-[200px] md:h-[70px] bg-white rounded-[4px] gap-[6px] absolute bottom-[-4px] pl-[5px]
+    items-center hover:bg-[#52C5B6] transition-[.4s]
+}
+.card_text span{
+    @apply block w-[32px] h-[2px] bg-[#52C5B6] mt-[6px] md:mt-[8px] lg:mt-[12px]
+}
+.text1 h5{
+    @apply text-[10px] md:text-[14px] lg:text-[18px] text-[#30344E] font-serif font-[600]
+}
+.text1 p{
+    @apply text-[8px] md:text-[10px] lg:text-[14px] text-[#5B5F77] font-serif font-[400]
+}
+.card_list{
+    @apply absolute bottom-[15px] right-8
+}
+.card_list .icon{
+    @apply text-white text-2xl md:text-3xl lg:text-4xl hover:text-[#52C5B6] transition-[.4s]
+}
+.link_icon{
+    @apply absolute top-[-100px] md:top-[-140px] lg:top-[-160px] gap-[10px] flex flex-col
+}
+.link_icon a{
+    @apply text-white text-xl md:text-3xl lg:text-4xl
+}

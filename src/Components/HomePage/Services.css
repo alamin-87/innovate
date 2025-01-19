@@ -1,5 +1,5 @@
 .services_section{
-    @apply bg-[#FAFAFA]
+    @apply bg-[#FAFAFA] pb-[20px] md:pb-[50px] lg:pb-[100px]
 }
 .services_row{
     @apply pt-[30px] md:pt-[50px] lg:pt-[120px]
@@ -17,7 +17,7 @@
     @apply lg:w-[538px] text-[14px] md:text-[16px] lg:text-[20px] text-[#5B5F77] font-serif font-[400] mt-[10px] lg:mt-0
 }
 .services_row2{
-    @apply mt-[40px] lg:mt-[58px] flex flex-wrap gap-[27px]
+    @apply mt-[40px] lg:mt-[58px] flex flex-wrap gap-[27px] lg:justify-between
 }
 .row2_card{
     @apply  bg-white p-[24px] lg:p-[12px] flex flex-col items-center rounded-lg border-[10px] border-solid border-[#52C5B6] border-t-0 border-l-0

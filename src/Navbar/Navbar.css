@@ -23,7 +23,7 @@
     @apply mt-[6px] text-white
 }
 .nav_col2 ul li a{
-    @apply md:text-[14px] lg:text-[20px] text-white font-serif font-[300]
+    @apply md:text-[14px] lg:text-[20px] text-white font-serif font-[300] cursor-pointer
 }
 .nav_col3{
     @apply flex md:gap-[10px] lg:gap-[50px] items-center md:pl-[16px] lg:pl-0

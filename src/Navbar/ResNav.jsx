@@ -22,7 +22,7 @@ const ResNav = () => {
                 <Link to="/">Home</Link>
                 <Navicon/>
               </li>
-              <li><Link to="/">About</Link></li>
+              <li><Link to="/about">About</Link></li>
               <li>
                <Link to="/">Services</Link>
                <Navicon/>

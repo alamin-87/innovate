@@ -1,0 +1,25 @@
+
+.services_row{
+    @apply mt-[40px] mb-[50px] md:mt-[50px] md:mb-[70px] lg:mt-[120px] lg:mb-[120px]
+}
+.services_row1{
+    @apply flex justify-center items-center
+}
+.services_row1 h3{
+    @apply text-[20px] md:text-[26px] lg:text-[48px] text-[#29313D] font-serif font-[600]
+}
+.services_row2{
+    @apply flex flex-wrap justify-between mt-[30px] md:mt-[50px] lg:mt-[100px]
+}
+.services_row2_card{
+    @apply flex flex-col justify-center items-center
+}
+.services_row2_card img{
+    @apply w-[50px] h-[50px] md:w-[60px] md:h-[60px] lg:w-[74px] lg:h-[74px]
+}
+.services_row2_card h4{
+    @apply text-[14px] md:text-[20px] lg:text-[28px] text-[#29313D] font-serif font-[600] mt-[15px] mb-[6px] md:mt-[20px] md:mb-[10px] lg:mt-[38px] lg:mb-[16px]
+}
+.services_row2_card p{
+    @apply md:w-[200px] lg:w-[335px] text-[12px] md:text-[14px] lg:text-[18px] text-[#29313D] font-serif font-[400] text-center
+}

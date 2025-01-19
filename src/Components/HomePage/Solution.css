@@ -1,0 +1,26 @@
+.solution_section{
+    @apply pt-[20px] lg:pt-[34px] pb-[50px] md:pb-[100px] lg:pb-[170px]
+}
+.solution_row{
+    @apply flex flex-wrap gap-[20px] md:gap-[40px] lg:gap-0 justify-between
+}
+.col1_text1 h2{
+    @apply md:w-[530px] lg:w-[550px] text-[24px] md:text-[30px] lg:text-[48px] text-[#30344E] font-serif font-[600]
+}
+.col1_text1 p{
+    @apply md:w-[530px] lg:w-[505px] text-[12px] md:text-[16px] lg:text-[18px] text-[#5B5F77] font-serif font-[400] pt-[10px] md:pt-[20px]
+    mb-[20px] md:mb-[40px]
+}
+.col1_text1 button{
+    @apply py-[10px] px-[20px] md:py-[14px] md:px-[28px] bg-[#FD5F36] text-[12px] md:text-[16px] lg:text-[18px] text-white font-serif font-[400]
+    active:scale-[1.1] transition-[.4s]
+}
+.col1_text2{
+    @apply flex flex-wrap gap-[30px] md:gap-[70px] mt-[30px] md:mt-[70px]
+}
+.text2_text h3{
+    @apply w-[185px] md:w-[265px] text-[16px] md:text-[20px] lg:text-[24px] text-[#30344E] font-serif font-[600]
+}
+.text2_text p{
+    @apply w-[200px] md:w-[258px] text-[10px] md:text-[14px] lg:text-[16px] text-[#5B5F77] font-serif font-[400] mt-[10px]
+}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Navicon.css'
-import { Link } from 'react-router'
+import { Link } from 'react-scroll'
 import { IoIosArrowDown } from 'react-icons/io'
 
 const Navicon = () => {
@@ -14,13 +14,13 @@ const Navicon = () => {
                   show&&
                   <div className="navicon">
                  <ul>
-                  <li><Link to="/">Content</Link></li>
-                  <li><Link to="/">About</Link></li>
-                  <li><Link to="/">Services</Link></li>
-                  <li><Link to="/">Solution</Link></li>
-                  <li><Link to="/">Team</Link></li>
-                  <li><Link to="/">Invest</Link></li>
-                  <li><Link to="/">Footer</Link></li>
+                  <li><Link to="/" spy={true} smooth={true} offset={50} duration={500}>Content</Link></li>
+                  <li><Link to="about_section" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
+                  <li><Link to="services_section" spy={true} smooth={true} offset={50} duration={500}>Services</Link></li>
+                  <li><Link to="solution_section" spy={true} smooth={true} offset={50} duration={500}>Solution</Link></li>
+                  <li><Link to="team_section" spy={true} smooth={true} offset={50} duration={500}>Team</Link></li>
+                  <li><Link to="invest_section" spy={true} smooth={true} offset={50} duration={500}>Invest</Link></li>
+                  <li><Link to="footer" spy={true} smooth={true} offset={50} duration={500}>Footer</Link></li>
                  </ul>
                   </div>
                 }

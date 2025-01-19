@@ -1,0 +1,15 @@
+.partners_row{
+    @apply pt-[60px] pb-[50px] md:pt-[60px] md:pb-[80px] lg:pt-[120px] lg:pb-[120px] flex flex-wrap justify-center items-center
+}
+.Partners_row1 h2{
+    @apply md:w-[600px] lg:w-[849px]  text-[16px] md:text-[26px] lg:text-[48px] text-[#29313D] font-serif font-[600] text-center
+}
+.partners_row2{
+    @apply flex flex-wrap justify-center gap-[20px] lg:gap-[30px] mt-[60px]
+}
+.partners_row2_card{
+    @apply w-[120px] h-[50px] lg:w-[180px] lg:h-[100px] bg-[#FDF9F8] flex justify-center items-center
+}
+.partners_row2_card img{
+    @apply w-[70px] h-[20px] lg:w-[120px] lg:h-[30px]
+}

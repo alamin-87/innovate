@@ -7,13 +7,15 @@ import Signup from './Components/Signup/Signup'
 import Login from './Components/Login/Login'
 import Home from './Pages/Home'
 import Layout from './Layouts/Layout'
+import About from './Pages/About'
 
 function App() {
   const [count, setCount] = useState(0)
   const Myrouter=createBrowserRouter(createRoutesFromElements(
     <Route>
       <Route path='/' element={<Layout/>}>
-      <Route index element={<Home/>}/>
+       <Route index element={<Home/>}/>
+       <Route path='/about' element={<About/>}/>
       </Route>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/login' element={<Login/>}/>

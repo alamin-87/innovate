@@ -1,0 +1,36 @@
+.customer_section{
+    @apply bg-[#FAFAFA]
+}
+.customer_row{
+    @apply py-[40px] md:py-[60px] lg:py-[110px]
+}
+.customer_row1 h3{
+    @apply md:w-[462px] lg:w-[642px] text-[22px] md:text-[32px] lg:text-[48px] text-[#30344E] font-serif font-[600]
+}
+.customer_row2{
+    @apply flex flex-wrap items-center justify-between gap-[10px] md:gap-0
+}
+.customer_card{
+    @apply py-[30px] px-[40px] md:py-[40px] md:px-[40px] bg-white rounded-sm shadow-md w-[300px] md:w-[360px] lg:w-[682px]
+}
+.customer_card_text p{
+    @apply text-[12px] md:text-[14px] lg:text-[22px] text-[#6C6E81] font-serif font-[400] leading-[20px] md:leading-[30px] lg:leading-[46px]
+}
+.customer_card_profile{
+    @apply flex items-center gap-[20px] mt-[16px] md:mt-[20px] lg:mt-[44px]
+}
+.profile_img{
+    @apply w-[30px] h-[30px] lg:w-[70px] lg:h-[70px] rounded-full overflow-hidden
+}
+.profile_text h5{
+    @apply text-[12px] md:text-[14px] lg:text-[20px] text-[#30344E] font-serif font-[600]
+}
+.profile_text p{
+    @apply text-[8px] md:text-[10px] lg:text-[14px] text-[#30344E] font-serif font-[400]
+}
+.profile_review{
+    @apply flex md:gap-[4px] lg:gap-[6px] md:ml-[20px] lg:ml-[200px] lg:text-2xl text-[#FFC34C]
+}
+.customer_img{
+    @apply md:w-[320px] md:h-[320px] lg:w-[550px] lg:h-[550px]
+}

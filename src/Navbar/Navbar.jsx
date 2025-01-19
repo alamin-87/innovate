@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
                 <Navicon/>
               </li>
-              <li><Link to="/">About</Link></li>
+              <li><Link to="/about">About</Link></li>
               <li>
                <Link to="/">Services</Link>
                <Navicon/>
@@ -33,7 +33,7 @@ const Navbar = () => {
                <Link to="/">Pages</Link>
                <Navicon/>
               </li>
-              <li><Link to="/">About</Link></li>
+              <li><Link to="/">News</Link></li>
             </ul>
           </div>
           <div className="nav_col3">

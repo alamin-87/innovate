@@ -1,0 +1,36 @@
+.invest_section{
+    @apply pt-[20px] mb-[50px] md:mb-[80px] lg:mb-[140px]
+}
+.invest_row{
+    @apply flex flex-wrap-reverse justify-between items-center gap-[20px]
+}
+.invest_col1 img{
+    @apply md:w-[300px] md:h-[350px] lg:w-[700px] lg:h-[800px]
+}
+/* .invest_col2{
+    @apply flex flex-wrap
+} */
+.col2_head h2{
+    @apply md:w-[363px] lg:w-[500px] text-[24px] md:text-[32px] lg:text-[42px] text-[#30344E] font-serif font-[600]
+}
+.col2_card{
+    @apply flex items-center justify-between px-[10px] w-[280px] md:w-[300px] lg:w-[500px] h-[50px] lg:h-[70px] border-[2px] border-solid border-[#D6D8E8] rounded-sm
+    hover:bg-[#52C5B6] transition-[.4s] relative
+}
+.col2_card p{
+    @apply text-[12px] md:text-[16px] lg:text-[20px] text-[#5B5F77] font-serif font-[600]
+}
+.col2_card .icon{
+    @apply text-[#5B5F77] text-[xl] md:text-2xl lg:text-3xl
+}
+.invest_col2_text{
+    @apply absolute px-[10px] w-[280px] md:w-[300px] lg:w-[500px] h-[40px] md:h-[80px] lg:h-[80px] border-[2px] border-solid border-[#D6D8E8] rounded-sm
+    top-[46px] left-[-1.5px] lg:top-[66px]
+
+}
+.invest_col2_text p{
+    @apply w-[260px] md:w-[280px] lg:w-[490px] text-[8px] md:text-[12px] lg:text-[16px] text-[#5B5F77] font-serif font-[400]
+}
+.invest_col2_card{
+    @apply flex flex-col mt-[10px] gap-[20px]
+}
