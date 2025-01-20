@@ -24,7 +24,7 @@ const ResNav = () => {
               </li>
               <li><Link to="/about">About</Link></li>
               <li>
-               <Link to="/">Services</Link>
+               <Link to="/services">Services</Link>
                <Navicon/>
               </li>
               <li>

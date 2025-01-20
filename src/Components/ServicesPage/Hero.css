@@ -1,0 +1,12 @@
+.hero{
+    @apply bg-no-repeat bg-cover bg-center
+}
+.hero_row{
+    @apply pt-[140px] pb-[40px] md:pt-[180px] md:pb-[60px] lg:pt-[252px] lg:pb-[100px] flex flex-col justify-center items-center
+}
+.hero_row h1{
+    @apply lg:w-[600px] text-[24px] md:text-[35px] lg:text-[64px] text-[#29313D] font-serif font-[700] text-center
+}
+.hero_row p{
+    @apply lg:w-[709px] text-[12px] md:text-[14px] lg:text-[18px] text-[#29313D] font-serif font-[400] text-center mt-[10px] lg:mt-[24px]
+}

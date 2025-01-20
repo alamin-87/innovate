@@ -1,0 +1,33 @@
+
+.process_row{
+    @apply my-[60px] md:my-[80px] lg:my-[120px]
+}
+.process_row1{
+    @apply flex flex-col justify-center items-center
+}
+.process_row1 h2{
+    @apply text-[20px] md:text-[28px] lg:text-[48px] text-[#29313D] font-serif font-[600]
+}
+.process_row1 span{
+    @apply text-[10px] md:text-[14px] lg:text-[18px] text-[#29313D] font-serif font-[400] mt-[12px] lg:mt-[20px]
+}
+.process_row2{
+    @apply flex flex-wrap justify-center gap-[30px] md:gap-[30px] lg:gap-[60px] mt-[40px] lg:mt-[68px]
+}
+.process_row2_card{
+    @apply py-[20px] px-[32px] md:py-[24px] md:px-[36px] lg:py-[40px] lg:px-[64px] bg-white shadow-lg
+}
+.process_row2_card_number{
+    @apply w-[40px] h-[40px] md:w-[60px] md:h-[60px] lg:w-[100px] lg:h-[100px] rounded-full bg-[#FF5538] flex justify-center items-center
+    top-[-20%] left-[-50%] md:left-[-35%] lg:top-[-25%] lg:left-[-35%] relative
+}
+.process_row2_card_number span{
+    @apply text-[16px] md:text-[24px] lg:text-[36px] text-white font-serif font-[400]
+}
+.process_row2_card_text{
+    @apply flex flex-col justify-end items-center
+}
+.process_row2_card_text h3{
+    @apply w-[100px] md:w-[140px] lg:w-[251px] text-[14px] md:text-[22px] lg:text-[36px] text-[#29313D] font-serif font-[600] text-center mt-[10px]
+    md:mt-[20px] lg:mt-[30px]
+}
