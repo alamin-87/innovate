@@ -1,0 +1,48 @@
+.PricingServices{
+    @apply bg-[#EDF3F7]
+}
+.PricingServices_row{
+    @apply pt-[30px] pb-[830px] md:pt-[40px] md:pb-[260px] lg:pt-[80px] lg:pb-[338px] relative
+}
+.PricingServices_row1{
+    @apply flex flex-col justify-center items-center
+}
+.PricingServices_row1 p{
+    @apply text-[10px] md:text-[14px] lg:text-[20px] text-[#FD5F36] font-serif font-[600]
+}
+.PricingServices_row1 h3{
+    @apply text-[18px] md:text-[26px] lg:text-[48px] text-[#29313D] font-serif font-[600] mt-[4px] lg:mt-[8px]
+}
+.PricingServices_row2{
+    @apply flex flex-wrap gap-[20px] justify-center items-center mt-[20px] md:mt-[30px] lg:mt-0 lg:gap-[20px] absolute lg:top-[280px] md:items-start
+}
+.PricingServices_row2_card{
+    @apply pt-[14px] pr-[20px] pb-[15px] pl-[10px] md:pt-[18px] md:pr-[30px] md:pb-[19px] md:pl-[14px] lg:pt-[36px] lg:pr-[35px] lg:pb-[38px]
+    lg:pl-[28px] bg-white shadow-lg
+}
+.PricingServices_row2_card_text{
+    @apply flex flex-col
+}
+.PricingServices_row2_card_text h3{
+    @apply text-[12px] md:text-[18px] lg:text-[36px] text-[#29313D] font-serif font-[600]
+}
+.PricingServices_row2_card_text p{
+    @apply w-[250px] lg:w-[362px] text-[10px] md:text-[12px] lg:text-[18px] text-[#29313D] font-serif font-[400] mt-[8px] md:mt-[12px] lg:mt-[16px]
+}
+.PricingServices_row2_card_text span{
+    @apply text-[16px] md:text-[24px] lg:text-[48px] text-[#29313D] font-serif font-[600] mt-[10px] mb-[12px] md:mt-[16px] md:mb-[18px]
+    lg:mt-[34px] lg:mb-[38px]
+}
+.PricingServices_row2_card_text button{
+    @apply py-[8px] px-[12px] md:py-[10px] md:px-[14px] lg:py-[14px] lg:px-[28px] bg-[#FF5538] rounded-[6px] lg:rounded-[18px] text-[10px] md:text-[14px]
+    lg:text-[18px] text-white font-serif font-[600]
+}
+.PricingServices_row2_card_menu{
+    @apply mt-[12px] md:mt-[24px] lg:mt-[48px]
+}
+.PricingServices_row2_card_menu1{
+    @apply flex items-center gap-[10px] lg:gap-[16px] mt-[8px] md:mt-[12px] lg:mt-[24px]
+}
+.PricingServices_row2_card_menu1 p{
+    @apply text-[10px] md:text-[12px] lg:text-[20px] text-[#29313D] font-serif font-[400]
+}

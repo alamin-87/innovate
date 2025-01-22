@@ -1,0 +1,25 @@
+.CtaServices{
+    @apply mt-[100px] md:mt-[620px] lg:mt-[552px] py-[30px] md:py-[50px] lg:py-[100px] bg-cover bg-center bg-no-repeat
+}
+.CtaServices_row1{
+    @apply flex justify-between items-center
+}
+.CtaServices_row1_text p{
+    @apply text-[10px] md:text-[14px] lg:text-[20px] text-[#29313D] font-serif font-[400]
+}
+.CtaServices_row1_text h3{
+    @apply text-[16px] md:text-[26px] lg:text-[48px] text-[#29313D] font-serif font-[600]
+}
+.CtaServices_row1_button button{
+    @apply bg-[#FF5538] py-[6px] px-[12px] md:py-[12px] md:px-[24px] lg:py-[14px] lg:px-[28px] text-[10px] md:text-[12px] lg:text-[18px]
+    text-white font-serif font-[600] rounded-[6px] md:rounded-[12px] lg:rounded-[18px]
+}
+.CtaServices_row2{
+    @apply mt-[20px] md:mt-[30px] lg:mt-[48px]
+}
+.CtaServices_row2 span{
+    @apply block w-full h-[1px] bg-[#29313D] opacity-[50%]
+}
+.CtaServices_row2 p{
+    @apply lg:w-[1200px] text-[10px] md:text-[14px] lg:text-[20px] text-[#29313D] font-serif font-[400] mt-[12px] md:mt-[18px] lg:mt-[24px]
+}

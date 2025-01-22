@@ -1,28 +1,28 @@
-.about{
+.services_about{
     @apply bg-[#FCF5F3]
 }
-.about_row{
+.services_about_row{
     @apply py-[40px] md:py-[60px] lg:py-[100px] flex flex-wrap justify-between items-center gap-[20px] md:gap-0
 }
-.about_col1_header h2{
+.services_about_col1_header h2{
     @apply md:w-[320px] lg:w-[595px] text-[16px] md:text-[22px] lg:text-[36px] text-black font-serif font-[600]
 }
-.about_col1_card{
+.services_about_col1_card{
     @apply flex flex-col gap-[12px] md:gap-[16px] lg:gap-[24px] mt-[12px] mb-[18px] md:mt-[20px] md:mb-[24px] lg:mt-[18px] lg:mb-[48px]
 }
-.about_col1_cards{
+.services_about_col1_cards{
     @apply flex bg-white p-[24px] justify-center gap-[12px] md:gap-[16px] lg:gap-[27px]
 }
-.about_card_text p{
+.services_about_card_text p{
     @apply text-[12px] md:text-[16px] lg:text-[24px] text-[#29313D] font-serif font-[600]
 }
-.about_card_text span{
+.services_about_card_text span{
     @apply block md:w-[250px] lg:w-[500px] text-[10px] md:text-[12px] lg:text-[18px] text-[#29313D] font-serif font-[400] mt-[10px] md:mt-[12px] lg:mt-[16px]
 }
-.about_col1_button a{
+.services_about_col1_button a{
     @apply bg-[#FF5538] py-[8px] px-[14px] md:py-[10px] md:px-[16px] lg:py-[14px] lg:px-[28px] rounded-[6px] text-[10px] md:text-[12px] lg:text-[18px]
     text-white font-serif font-[400] cursor-pointer
 }
-.about_col2{
+.services_about_col2{
     @apply bg-[#C4C4C4] w-[250px] h-[160px] md:w-[310px] md:h-[270px] lg:w-[660px] lg:h-[430px]
 }

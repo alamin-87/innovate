@@ -1,0 +1,29 @@
+.AgencyServices{
+    @apply bg-[#EDF3F7]
+}
+.AgencyServices_row{
+    @apply  py-[40px] md:py-[60px] lg:py-[120px]
+}
+.AgencyServices_row1{
+    @apply flex flex-col justify-center items-center
+}
+.AgencyServices_row1 h2{
+   @apply text-[16px] md:text-[24px] lg:text-[48px] text-[#29313D] font-serif font-[600]
+}
+.AgencyServices_row1 p{
+    @apply text-[10px] md:text-[12px] lg:text-[18px] text-[#29313D] font-serif font-[400]
+}
+.AgencyServices_row2{
+    @apply pt-[20px] md:pt-[30px] lg:pt-[60px] flex flex-wrap justify-between gap-[16px] md:gap-[20px] lg:gap-[24px]
+}
+.AgencyServices_row2_card{
+    @apply w-[140px] h-[180px] md:w-[220px] md:h-[260px] lg:w-[423px] lg:h-[484px] bg-white
+}
+.AgencyServices_row2_card span{
+    @apply flex text-[8px] md:text-[10px] lg:text-[14px] text-[#29313D] font-serif font-[400] ml-[10px] md:ml-[16px] lg:ml-[23px] pt-[20px]
+    md:pt-[26px] lg:pt-[34px]
+}
+.AgencyServices_row2_card h4{
+    @apply flex text-[12px] md:text-[16px] lg:text-[28px] text-[#29313D] font-serif font-[600] ml-[10px] md:ml-[16px] lg:ml-[23px] mt-[6px] md:mt-[10px]
+    lg:mt-[14px]
+}
