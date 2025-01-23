@@ -1,0 +1,30 @@
+
+.portfolio_section_row{
+    @apply mt-[20px] mb-[40px] md:mt-[30px] md:mb-[60px] lg:mt-[48px] lg:mb-[120px]
+}
+.portfolio_section_row1 ul{
+    @apply flex flex-wrap gap-[20px] md:gap-0 justify-between items-center bg-[#FBF3F0]
+}
+.portfolio_section_row1 ul li{
+    @apply bg-[#FBF3F0] pb-[6px] px-[6px] md:py-[18px] md:px-[12px] lg:py-[27px] lg:px-[23px]
+}
+.portfolio_section_row1 ul li span{
+    @apply text-[10px] md:text-[12px] lg:text-[20px] text-[#29313D] font-serif font-[600]
+}
+.portfolio_section_row1 ul li:hover{
+    @apply bg-white shadow-lg transition-[.4s]
+}
+.portfolio_section_row2{
+    @apply mt-[26px] md:mt-[40px] lg:mt-[80px] flex flex-wrap justify-between items-center gap-[14px] md:gap-[16px]
+}
+.portfolio_section_row2_card{
+    @apply md:w-[220px] md:h-[280px] lg:w-[430px] lg:h-[484px] bg-white overflow-hidden shadow-md
+}
+.portfolio_section_row2_card p{
+    @apply text-[9px] md:text-[10px] lg:text-[14px] text-[#29313D] font-serif font-[400] ml-[10px] mt-[14px] md:ml-[12px] md:mt-[17px]
+    lg:ml-[24px] lg:mt-[34px]
+}
+.portfolio_section_row2_card h4{
+    @apply text-[12px] md:text-[16px] lg:text-[28px] text-[#29313D] font-serif font-[600] ml-[10px] mt-[6px] pb-[10px] md:ml-[12px] md:mt-[10px] md:pb-[12px]
+    lg:ml-[24px] lg:mt-[14px] lg:pb-[34px]
+}

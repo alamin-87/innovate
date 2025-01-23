@@ -9,6 +9,7 @@ import Home from './Pages/Home'
 import Layout from './Layouts/Layout'
 import About from './Pages/About'
 import Services from './Pages/Services'
+import Portfolio from './Pages/Portfolio'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
        <Route index element={<Home/>}/>
        <Route path='/about' element={<About/>}/>
        <Route path='/services' element={<Services/>}/>
+       <Route path='/portfolio' element={<Portfolio/>}/>
       </Route>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/login' element={<Login/>}/>

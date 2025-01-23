@@ -1,0 +1,12 @@
+.portfoliohero{
+    @apply bg-no-repeat bg-cover bg-center
+}
+.Portfolio_hero_row{
+    @apply pt-[120px] pb-[40px] md:pt-[180px] md:pb-[60px] lg:pt-[164px] lg:pb-[100px] flex flex-col justify-center items-center
+}
+.Portfolio_hero_row h1{
+    @apply md:w-[400px] lg:w-[600px] text-[24px] md:text-[35px] lg:text-[64px] text-[#29313D] font-serif font-[700] text-center
+}
+.Portfolio_hero_row p{
+    @apply md:w-[400px] lg:w-[609px] text-[12px] md:text-[14px] lg:text-[18px] text-[#29313D] font-serif font-[400] text-center mt-[16px] md:mt-[20px] lg:mt-[24px]
+}

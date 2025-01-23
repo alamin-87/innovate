@@ -28,10 +28,10 @@ const ResNav = () => {
                <Navicon/>
               </li>
               <li>
-               <Link to="/">Pages</Link>
+               <Link to="/portfolio">Portfolio</Link>
                <Navicon/>
               </li>
-              <li><Link to="/">About</Link></li>
+              <li><Link to="/">Blog</Link></li>
             </ul>
            </div>
            <div className="resnav_col3">

@@ -9,7 +9,7 @@ const FooterServices = () => {
         <div className="container">
             <div className="FooterServices_row">
                 <div className="FooterServices_col1">
-                    <Link to="/"> <img src="images/logo1.png" alt="logo" /></Link>
+                    <Link to="hero"> <img src="images/logo1.png" alt="logo" /></Link>
                     <p>Install any demo or template with a single click. You can mix and match all the demos
                     & templates. Every demo can be turned into one or multi-page.</p>
                 </div>

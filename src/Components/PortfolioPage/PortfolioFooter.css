@@ -1,17 +1,17 @@
 
-.FooterServices_row{
-    @apply py-[40px] md:py-[70px] lg:py-[140px] flex flex-wrap justify-between items-start gap-[20px] md:gap-0
+.portfolio_footer_row{
+    @apply py-[40px] md:py-[70px] lg:py-[10px] flex flex-wrap justify-between items-start gap-[20px] md:gap-0
 }
-.FooterServices_col1 p{
+.portfolio_footer_col1 p{
     @apply md:w-[250px] lg:w-[449px] text-[10px] md:text-[12px] lg:text-[18px] text-[#29313D] font-serif font-[400] mt-[16px] md:mt-[24px]
     lg:mt-[44px]
 }
-.FooterServices_col2 h4{
+.portfolio_footer_col2 h4{
     @apply text-[14px] md:text-[18px] lg:text-[24px] text-[#29313D] font-serif font-[600] mb-[12px] md:mb-[20px] lg:mb-[48px]
 }
-.FooterServices_col2 ul{
+.portfolio_footer_col2 ul{
     @apply flex flex-col gap-[8px] md:gap-[14px] lg:gap-[30px]
 }
-.FooterServices_col2 ul li a{
+.portfolio_footer_col2 ul li a{
     @apply text-[10px] md:text-[12px] lg:text-[20px] text-[#29313D] font-serif font-[400] cursor-pointer
 }
