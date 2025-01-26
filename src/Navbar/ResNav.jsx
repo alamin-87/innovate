@@ -31,7 +31,7 @@ const ResNav = () => {
                <Link to="/portfolio">Portfolio</Link>
                <Navicon/>
               </li>
-              <li><Link to="/">Blog</Link></li>
+              <li><Link to="/blog">Blog</Link></li>
             </ul>
            </div>
            <div className="resnav_col3">

@@ -1,0 +1,38 @@
+
+.blog_card_row{
+    @apply py-[40px] md:pt-[60px] lg:pt-[120px]
+}
+.blog_card_row{
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] lg:gap-[35px] items-center
+}
+.blog_card_row1{
+    @apply grid  grid-cols-1 gap-[20px] items-center md:mb-[60px] lg:mb-[120px]
+}
+.blog_card_row1_text_header h4{
+    @apply md:w-[300px] lg:w-[426px] text-[12px] md:text-[16px] lg:text-[24px] text-[#29313D] font-serif font-[600]
+}
+.blog_card_row1_text_header p{
+    @apply md:w-[290px] lg:w-[400px] text-[10px] md:text-[12px] lg:text-[18px] text-[#29313D] font-serif font-[400] mt-[6px] mb-[4px]
+    md:mt-[10px] md:mb-[6px] lg:mt-[20px] lg:mb-[8px]
+}
+.blog_card_row1_text_footer{
+    @apply flex items-center gap-[40px] lg:gap-[70px]
+}
+.card_row1_footer_man{
+    @apply flex items-center gap-[10px] lg:gap-[20px]
+}
+.card_row1_footer_man img{
+    @apply  w-[30px] h-[30px] lg:w-[52px] lg:h-[52px] rounded-full 
+}
+.card_row1_footer_man p{
+    @apply  text-[10px] md:text-[12px] lg:text-[16px] text-[#29313D] font-serif font-[400]
+}
+.card_row1_footer_date{
+    @apply flex items-center gap-[10px] lg:gap-[20px]
+}
+.card_row1_footer_date .card_feature_icon{
+    @apply w-[20px] h-[20px] lg:w-[25px] lg:h-[25px] text-[#9C9BA9]
+}
+.card_row1_footer_date p{
+    @apply text-[10px] md:text-[12px] lg:text-[16px] text-[#29313D] font-serif font-[400]
+}
