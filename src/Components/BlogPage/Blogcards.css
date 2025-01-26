@@ -6,7 +6,7 @@
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] lg:gap-[35px] items-center
 }
 .blog_card_row1{
-    @apply grid  grid-cols-1 gap-[20px] items-center md:mb-[60px] lg:mb-[120px]
+    @apply grid  grid-cols-1 gap-[20px] items-center md:mb-[60px] lg:mb-[100px]
 }
 .blog_card_row1_text_header h4{
     @apply md:w-[300px] lg:w-[426px] text-[12px] md:text-[16px] lg:text-[24px] text-[#29313D] font-serif font-[600]
